@@ -21,7 +21,7 @@ if [ -z "`which docker`" ]; then
 fi
 
 ACTION=${ACTION:-deploy}
-IMAGE=${IMAGE:-thekrushka/shipyard:latest}
+IMAGE=${IMAGE:-tim2/shipyard:latest}
 PREFIX=${PREFIX:-shipyard}
 SHIPYARD_ARGS=${SHIPYARD_ARGS:-""}
 TLS_CERT_PATH=${TLS_CERT_PATH:-}
